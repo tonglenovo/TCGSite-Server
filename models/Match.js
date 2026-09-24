@@ -62,6 +62,11 @@ const matchSchema = new mongoose.Schema(
       required: true,
     },
 
+    playedAt: {
+      type: Date,
+      default: null,
+    },
+
     location: {
       type: String,
       required: true,

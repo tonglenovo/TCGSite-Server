@@ -11,6 +11,7 @@ const matches = [
         game: 'Gundam',
 
         date: '2026-09-16',
+        playedAt: new Date('2026-09-16T19:45:00+08:00'),
         location: 'HotSpot TCG',
         eventType: 'Shop Battle',
 
@@ -51,6 +52,7 @@ const matches = [
         game: 'Gundam',
 
         date: '2026-09-13',
+        playedAt: new Date('2026-09-13T20:00:00+08:00'),
         location: '1Collectibles',
         eventType: 'Shop Battle',
 
@@ -96,6 +98,7 @@ const matches = [
         game: 'Gundam',
 
         date: '2026-09-13',
+        playedAt: new Date('2026-09-13T13:00:00+08:00'),
         location: 'Game Academia',
         eventType: 'Shop Battle',
 
@@ -141,6 +144,7 @@ const matches = [
         game: 'Gundam',
 
         date: '2026-09-12',
+        playedAt: new Date('2026-09-12T20:00:00+08:00'),
         location: 'Tefuda',
         eventType: '1st Anniversary Sealed Format Event',
 
@@ -194,6 +198,7 @@ const matches = [
         game: 'Gundam',
 
         date: '2026-09-11',
+        playedAt: new Date('2026-09-11T20:00:00+08:00'),
         location: 'Inferno Gaming',
         eventType: 'Shop Battle',
 
@@ -247,6 +252,7 @@ const matches = [
         game: 'Gundam',
 
         date: '2026-09-10',
+        playedAt: new Date('2026-09-10T19:30:00+08:00'),
         location: 'Sentinel Game',
         eventType: 'Shop Battle',
 
@@ -284,6 +290,7 @@ const matches = [
         game: 'Gundam',
 
         date: '2026-09-10',
+        playedAt: new Date('2026-09-10T14:00:00+08:00'),
         location: 'Black Label',
         eventType: 'Shop Battle',
 
@@ -329,6 +336,7 @@ const matches = [
         game: 'Gundam',
 
         date: '2026-09-09',
+        playedAt: new Date('2026-09-09T19:45:00+08:00'),
         location: 'Hotspot TCG',
         eventType: 'Shop Battle',
 
@@ -358,6 +366,7 @@ const matches = [
         game: 'Gundam',
 
         date: '2026-09-07',
+        playedAt: new Date('2026-09-07T20:00:00+08:00'),
         location: 'Card Central',
         eventType: 'Shop Battle',
 
