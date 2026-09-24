@@ -19,14 +19,18 @@ app.get('/', (req, res) => {
   res.send('TongYT API is running')
 })
 
+// Render provides PORT automatically.
+// Locally, it will use port 3000.
+const PORT = process.env.PORT || 3000
+
 // MongoDB connection
 mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => {
     console.log('MongoDB connected')
 
-    app.listen(3000, () => {
-      console.log('Server running on http://localhost:3000')
+    app.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`)
     })
   })
   .catch((error) => {
